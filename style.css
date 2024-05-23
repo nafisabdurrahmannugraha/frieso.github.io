@@ -1,0 +1,355 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #00c4cc;
+  background-image: url("asset/image/Home.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.navbar {
+  background-color: #0a1a44;
+  display: flex;
+  position: relative;
+}
+.navbar h1 {
+  font-family: poppins;
+  width: 1500px;
+  margin: 10px;
+  color: white;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  margin: 5px;
+  size: 100%;
+}
+.li-navbar {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #0a1a44;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-family: poppins;
+  margin-top: 5%;
+  color: white;
+  background-size: 100%;
+  padding: 12px;
+  margin-right: 60px;
+}
+
+.li-navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.li-navbar:hover {
+  background-color: #00c4cc;
+  transition-duration: unset;
+}
+
+.gambar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar img {
+  max-width: 50%;
+  height: auto;
+}
+
+.tittle-text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  transition-duration: 1s;
+  min-height: 10px;
+  letter-spacing: 2px;
+}
+
+.container-about {
+  width: 70%;
+  border: 2px solid white;
+  padding-bottom: 5%;
+  margin: 5% 14%;
+  box-shadow: white;
+  -webkit-box-shadow: 10px 10px 5px 0px white;
+  -moz-box-shadow: 10px 10px 5px 0px white;
+  margin-top: 10px;
+  border-radius: 4%;
+}
+
+.container-about h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.p-about {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  border: 2px solid white;
+  width: 50%;
+  margin: 0 25%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgb(255, 255, 255);
+  -webkit-box-shadow: 10px 10px 5px 0px rgb(255, 255, 255);
+  -moz-box-shadow: 10px 10px 5px 0px rgb(255, 255, 255);
+}
+
+.contact h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container-about img {
+  display: flex;
+  margin: 5% 42%;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.container-about h1 {
+  color: white;
+}
+
+.container-about p {
+  color: white;
+}
+
+.discription-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+}
+
+.introduce_button {
+  background-color: #00c4cc;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px auto;
+  display: block;
+  width: fit-content;
+}
+.introduce_button:hover {
+  background-color: #0a1a44;
+}
+
+.list {
+  background-color: #00c4cc;
+  display: flex;
+  justify-content: right;
+  margin-left: 70%;
+}
+
+.bottom-right-image {
+  position: fixed;
+  bottom: 20px;
+  right: 2px;
+}
+
+.bottom-right-image img {
+  width: 400px;
+}
+
+.bottom-left-image {
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+}
+
+.bottom-left-image img {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.rocket {
+  position: fixed;
+  bottom: 20px;
+  left: 2px;
+}
+
+.rocket img {
+  width: 350px;
+}
+
+.peaple {
+  position: fixed;
+  top: 600px;
+  left: 1600px;
+}
+
+.peaple img {
+  width: 420px;
+}
+
+.introduce_tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce_tittle h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+.mercury {
+  position: fixed;
+  left: 70%;
+  top: 70%;
+}
+
+.container-experience {
+  width: 70%;
+  border: 2px solid white;
+  padding-bottom: 5%;
+  margin: 5% 14%;
+  box-shadow: white;
+  -webkit-box-shadow: 10px 10px 5px 0px white;
+  -moz-box-shadow: 10px 10px 5px 0px white;
+  margin-top: 10px;
+  border-radius: 4%;
+}
+
+.container-experience h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.container-experience p {
+  color: white;
+}
+
+.astronot {
+  position: fixed;
+  bottom: 10px;
+}
+
+.saturnus {
+  position: fixed;
+  bottom: 20px;
+  left: 1500px;
+}
+
+.planet {
+  position: fixed;
+  bottom: 3px;
+  left: 41%;
+}
+
+.Thanks {
+  display: flex;
+  justify-content: center;
+}
+
+.Thanks {
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: 200%;
+}
+
+.Instagram {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .ul-navbar {
+    margin-left: 1700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tittle-text h1 {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  .gambar {
+    margin-top: 200px;
+  }
+  .bottom-left-image {
+    position: fixed;
+    bottom: 20px;
+  }
+
+  .bottom-right-image {
+    position: fixed;
+    bottom: 7%;
+    left: 250px;
+  }
+  .bottom-left-image img {
+    width: 40%;
+  }
+
+  .bottom-right-image img {
+    width: 120px;
+  }
+
+  .ul-navbar {
+    display: flex;
+    justify-content: safe;
+  }
+
+  .li-navbar {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .rocket {
+    position: fixed;
+    left: 1px;
+    left: 15%;
+  }
+
+  .rocket img {
+    width: 280px;
+  }
+
+  .astronot {
+    position: fixed;
+  }
+
+  .astronot img {
+    width: 200px;
+    margin-left: 100px;
+  }
+
+  .contact h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .contact img {
+    width: 20px;
+  }
+}
